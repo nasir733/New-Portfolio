@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/f1b887a66b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap" rel="stylesheet" />
+    <style>
+        h1,
+        h2,
+        h3,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: "Bebas Neue", cursive;
+        }
+
+        p {
+            font-family: "Fjalla One", sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .card {
+            border-radius: 20px;
+            width: 10rem;
+            box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.5);
+        }
+
+        @media screen and (max-width: 600px) {
+            #experience {
+                flex-direction: column;
+            }
+
+            .mobile-hide {
+                display: none !important;
+            }
+
+            .mobile-show {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+
+<body class="text-center">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Schedule a Meeting</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="p-3 row d-flex flex-column justify-content-center align-items-center" style="min-height: 90vh;">
+            <h1 class="display-1">Nasir Iqbal</h1>
+            <div class="m-3 d-flex justify-content-between" style="width: 70px;">
+                <a href="https://www.instagram.com/nasirr_dev/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram" style="font-size: 30px;"></i>
+                </a>
+                <a href="https://github.com/nasir733" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github-alt" style="font-size: 30px;"></i>
+                </a>
+            </div>
+            <h2>
+                Django FullStack Web Developer <span class="mobile-hide">|</span><br class="mobile-show"
+                    style="display: none;" />
+                Youtuber
+                <span class="mobile-hide">|</span><br class="mobile-show" style="display: none;" />
+                Coaching
+            </h2>
+            <p class="my-3 container">
+              I am a self taught Python Django Developer Based in Pakistan 
+            </p>
+        </div>
+
+        <div class="p-3 row d-flex text-white" style="background-color: rgb(0, 0, 0, 0.9);" id="experience">
+            <div class="my-2 col d-flex flex-column justify-content-start align-items-center">
+                <h3>SKILLS</h3>
+                <p class="m-1 btn btn-outline-light">Python</p>
+                <p class="m-1 btn btn-outline-light">Django</p>
+            </div>
+
+            <div class="my-2 col d-flex flex-column justify-content-start align-items-center">
+                <h3>PROJECTS</h3>
+                <a class="m-1 btn btn-outline-light" href="https://github.com/nasir733/django-movie-app" target="_blank"
+                    rel="noopener noreferrer">MovieApp</a>
+                <a class="m-1 btn btn-outline-light" href="https://github.com/nasir733/Django-E-Commerce-store" target="_blank"
+                    rel="noopener noreferrer">E-Commerce</a>
+                <a class="m-1 btn btn-outline-light" href="https://github.com/nasir733/textutils" target="_blank"
+                    rel="noopener noreferrer">TextUtils</a>
+            </div>
+        </div>
+
+        <div class="p-3 row d-flex flex-column justify-content-center align-items-center"
+            style="background-color: rgb(0, 0, 0, 0.1);">
+            <h3>Testimonials</h3>
+
+            <div class="m-3 container d-flex flex-wrap justify-content-center align-items-center">
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Nasir</p>
+                    </div>
+                </div>
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Nasir</p>
+                    </div>
+                </div>
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Nasir</p>
+                    </div>
+                </div>
+                <div class="m-2 card">
+                    <div class="card-body">
+                        <p>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <p>Amazing person</p>
+                        <p>-Nasir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-3 row d-flex flex-column justify-content-center align-items-center">
+            <h3>Schedule with Me</h3>
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/engnasir733/60min"
+                style="min-width: 320px; height: 630px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+            <!-- Calendly inline widget end -->
+        </div>
+
+        <div class="p-5 row d-flex justify-content-center align-items-center text-white"
+            style="background-color: #000000;">
+            <div class="col">
+                <p>Copyright &copy; 2020-2021</p>
+            </div>
+            <div class="col">
+                <p>Contact Me: Nasir | engnasir733@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
